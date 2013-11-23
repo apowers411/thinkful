@@ -1,8 +1,11 @@
 #! /usr/bin/env python
+import sys
 
-meal=float(raw_input("Enter meal"))
-tax=float(raw_input("Enter tax"))
-tip=float(raw_input("Enter tip"))
+print ("enter meal then tax then tip")
+
+meal=float(sys.argv[1])
+tax=float(sys.argv[2])
+tip=float(sys.argv[3])
 
 tax_value=meal*tax
 meal_with_tax=meal+tax_value
