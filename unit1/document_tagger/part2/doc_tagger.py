@@ -5,10 +5,15 @@ import os
 from optparse import OptionParser
 
 #get input from user
+def split_callback(option,opt,value,parser):
+    setattr(parser.values, option.dest, value.split(','))
+
+
 choices=OptionParser()
-choices.add_option("-k", "--keyword",dest="words",type="string")
+choices.add_option("-k", "--keyword",dest="words",type="string", action='callback',callback=split_callback)
 choices.add_option("-d", "--directory",dest="directory",type="string")
 (options, args)=choices.parse_args()
+
 
 #error if it data not there
 if not (options.words and options.directory):
@@ -22,7 +27,8 @@ illustrator_search = re.compile(r'(illustrator:)(?P<illustrator>.*)', re.IGNOREC
 
 #create a dictionary of keyword with value=None
 searches={}
-searches[options.words]=re.compile(r'\b' + options.words + r'\b', re.IGNORECASE)
+for word in options.words:
+    searches[word]=re.compile(r'\b' + word + r'\b', re.IGNORECASE)
 
 #work with the files
 txtfiles=os.listdir(options.directory)
