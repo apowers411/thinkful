@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c182c1-85e4-4cb2-805e-6af66fba628b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ml_class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python_koans" afterPath="$PROJECT_DIR$/python_koans" />
     </list>
     <ignored path="unit2.iws" />
