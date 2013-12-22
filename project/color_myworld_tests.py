@@ -1,9 +1,9 @@
 import unittest
-import color_myworld_app
+from color_myworld_app import MyPerson
+
 
 class PersonNameTests(unittest.TestCase):
     def test_name_person(self):
-        person=Person()
-        result=person.name('Alicia')
-        self.assertEqual('Alicia',result)
-        print result
+        first_person = MyPerson("Karee")
+        result = first_person.name
+        self.assertEqual('Karee', result)

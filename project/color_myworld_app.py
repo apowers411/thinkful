@@ -1,5 +1,13 @@
-class Person (object):
-    def __init__(self):
-        self.name="Alicia"
+class MyPerson(object):
+    def __init__(self, name):
+        self.name = name
 
-    def setName(self,name):
+
+class SocialMediaLink(object):
+    def __init__(self, name):
+        """
+
+        :type self: object
+        """
+        self.name = name
+        
