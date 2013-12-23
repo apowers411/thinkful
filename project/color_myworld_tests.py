@@ -7,3 +7,8 @@ class PersonNameTests(unittest.TestCase):
         first_person = MyPerson("Karee")
         result = first_person.name
         self.assertEqual('Karee', result)
+
+    def test_setBio(self):
+        first_person=MyPerson("Karee")
+        result = first_person.setBio("My name is Karee")
+        self.assertEqual("My name is Karee",first_person.bio)
