@@ -1,0 +1,14 @@
+{% extends "home.html" %}
+
+{% block content %}
+    {% for person in persons %}
+      <h2><a href="{{ url_for('persons.detail', name=person.name) }}">{{ person.bio }}</a></h2>
+      <p>{{ person.bio|truncate(100) }}</p>
+      <p>
+        {{ person.created_at.strftime('%H:%M %Y-%m-%d') }} |
+        {% with total=person.tags|length %}
+            {{ total }} comment {%- if total > 1 %}s{%- endif -%}
+        {% endwith %}
+      </p>
+    {% endfor %}
+{% endblock %}

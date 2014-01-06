@@ -29,14 +29,23 @@ class SocialMediaLink(object):
         self.status=""
 
 
+
+#classes.py or MyPerson.py, Social.py
+
+#main method would have API keys
+
+
+
 # TODO add Twitter api
 class Twitter(SocialMediaLink):
+    def __init__(self):
     #api=twitter.Api(consumer_key='ygHMdyqI5Rp5U8ocszeg',consumer_secret='Z1inuYmTC53Fnf6Pv5KDlhhYB8iDXICDefjPwzLBQ',access_token_key='545244617-28sr37n7IZTqrN6kIzUm9LH7YGNomPnYYEa3qhLy',access_token_secret='xsSyHxp49KAnRusyjoE3TjP5otU08WlIajzkzOU')
     #username=twitter.User()
     #status=api.GetSearch(username)
     #def verifyCredentials(self):
     #    print self.api.VerifyCredentials()
     pass
+
 
 # FIXME fix wikipediea data
 class Wikipedia(SocialMediaLink):

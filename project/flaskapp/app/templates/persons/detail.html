@@ -1,0 +1,30 @@
+{% extends "home.html" %}
+{% import "_forms.html" as forms %}
+
+{% block page_header %}
+  <div class="page-header">
+    <h1>{{ person.name }}</h1>
+  </div>
+{% endblock %}
+
+{% block content %}
+  <p>{{ person.bio }}<p>
+  <p>{{ person.created_at.strftime('%H:%M %Y-%m-%d') }}</p>
+  <hr>
+  <h2>Tags</h2>
+  {% if person.tags %}
+    {% for tag in person.tags %}
+       <p>{{ tag.positive }}</p>
+       <p><strong>{{ tag.negative }}</strong> <small>on {{ tag.created_at.strftime('%H:%M %Y-%m-%d') }}</small></p>
+    {% endfor %}
+  {% endif %}
+         <hr>
+<h2>Add a comment</h2>
+<form action="." method="post">
+  {{ forms.render(form) }}
+  <div class="actions">
+    <input type="submit" class="btn primary" value="comment">
+  </div>
+</form>
+{% endblock %}
+
