@@ -29,16 +29,39 @@
             <state line="19" column="13" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+                <marker date="1391918034000" expanded="true" signature="116:167" placeholder="..." />
+                <marker date="1391918034000" expanded="true" signature="213:280" placeholder="..." />
+                <marker date="1391918034000" expanded="true" signature="325:387" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="place.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="place.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/place.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="381" selection-end="381" vertical-scroll-proportion="0.49418604" vertical-offset="25" max-vertical-offset="600">
-              <folding />
+            <state line="6" column="9" selection-start="242" selection-end="242" vertical-scroll-proportion="-2.7083333" vertical-offset="25" max-vertical-offset="600">
+              <folding>
+                <marker date="1391919240000" expanded="true" signature="23:241" placeholder="..." />
+                <marker date="1391919240000" expanded="true" signature="250:802" placeholder="..." />
+                <marker date="1391919240000" expanded="true" signature="299:506" placeholder="..." />
+                <marker date="1391919240000" expanded="true" signature="324:495" placeholder="..." />
+                <marker date="1391919240000" expanded="true" signature="356:482" placeholder="..." />
+                <marker date="1391919240000" expanded="true" signature="371:467" placeholder="..." />
+                <marker date="1391919240000" expanded="true" signature="556:752" placeholder="..." />
+                <marker date="1391919240000" expanded="true" signature="584:741" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlalchemypractice.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sqlalchemypractice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="115" column="0" selection-start="4693" selection-end="4693" vertical-scroll-proportion="0.91052634" vertical-offset="1609" max-vertical-offset="2142">
+              <folding>
+                <element signature="e#27#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,14 +90,15 @@
         <option value="$PROJECT_DIR$/templates/benin.html" />
         <option value="$PROJECT_DIR$/profile.py" />
         <option value="$PROJECT_DIR$/templates/place.html" />
+        <option value="$PROJECT_DIR$/sqlalchemypractice.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="579" />
-    <option name="y" value="22" />
-    <option name="width" value="713" />
-    <option name="height" value="700" />
+    <option name="x" value="10" />
+    <option name="y" value="70" />
+    <option name="width" value="1265" />
+    <option name="height" value="703" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -111,30 +135,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -148,6 +148,7 @@
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -336,16 +337,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="579" y="22" width="713" height="700" extended-state="0" />
-    <editor active="false" />
+    <frame x="10" y="70" width="1265" height="703" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295082" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31096563" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18628912" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10220768" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -382,14 +383,35 @@
         <state line="19" column="13" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+            <marker date="1391918034000" expanded="true" signature="116:167" placeholder="..." />
+            <marker date="1391918034000" expanded="true" signature="213:280" placeholder="..." />
+            <marker date="1391918034000" expanded="true" signature="325:387" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/place.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="381" selection-end="381" vertical-scroll-proportion="0.49418604" vertical-offset="25" max-vertical-offset="600">
-          <folding />
+        <state line="6" column="9" selection-start="242" selection-end="242" vertical-scroll-proportion="-2.7083333" vertical-offset="25" max-vertical-offset="600">
+          <folding>
+            <marker date="1391919240000" expanded="true" signature="23:241" placeholder="..." />
+            <marker date="1391919240000" expanded="true" signature="250:802" placeholder="..." />
+            <marker date="1391919240000" expanded="true" signature="299:506" placeholder="..." />
+            <marker date="1391919240000" expanded="true" signature="324:495" placeholder="..." />
+            <marker date="1391919240000" expanded="true" signature="356:482" placeholder="..." />
+            <marker date="1391919240000" expanded="true" signature="371:467" placeholder="..." />
+            <marker date="1391919240000" expanded="true" signature="556:752" placeholder="..." />
+            <marker date="1391919240000" expanded="true" signature="584:741" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlalchemypractice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="0" selection-start="4693" selection-end="4693" vertical-scroll-proportion="0.91052634" vertical-offset="1609" max-vertical-offset="2142">
+          <folding>
+            <element signature="e#27#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
