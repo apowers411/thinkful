@@ -80,7 +80,7 @@
       <file leaf-file-name="environment.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/environment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.46583852" vertical-offset="0" max-vertical-offset="322">
+            <state line="8" column="19" selection-start="263" selection-end="263" vertical-scroll-proportion="0.3726708" vertical-offset="0" max-vertical-offset="322">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -612,7 +612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/environment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="295" selection-end="295" vertical-scroll-proportion="0.46583852" vertical-offset="0" max-vertical-offset="322">
+        <state line="8" column="19" selection-start="263" selection-end="263" vertical-scroll-proportion="0.3726708" vertical-offset="0" max-vertical-offset="322">
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
