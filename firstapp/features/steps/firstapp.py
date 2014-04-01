@@ -1,3 +1,4 @@
+
 @when(u'I go to the home page')
 def step_impl(context):
     context.browser.get('http://localhost:5000')
